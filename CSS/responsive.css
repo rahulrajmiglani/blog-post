@@ -64,5 +64,15 @@
     .blog-box.recent {
         grid-template-rows: auto;
     }
+    #siteWrapper .container {
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    }  
+    .container .blog-excerpt, .blog-content h1, .blog-item-date {
+        font-size: 24px;
+        line-height: 1em;
+    }
+    .container .blog-box {
+        grid-template-rows: 60% 40%;
+    }
 
 }
