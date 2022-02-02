@@ -76,3 +76,17 @@
     }
 
 }
+
+/* CSS For smaller screens*/
+
+@media (max-width: 500px) {
+    #siteWrapper .container .blog-box {
+      grid-template-rows: 50% 50%;
+    }
+    #siteWrapper .container .blog-excerpt,
+    .blog-content h1,
+    .blog-item-date {
+      font-size: 26px;
+      line-height: 1.2em;
+    }
+  }
