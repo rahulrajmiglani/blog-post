@@ -34,6 +34,21 @@
     display: flex;
     flex-direction: column;
 }
+.body-fontfamily-design{
+    font-family: sans-serif, cursive;
+}
+
+.logo-fontfamily-design{
+    font-family: 'Press Start 2P', cursive;
+}
+
+.body-fontsize-design{
+    font-size: 1.3rem;
+}
+
+.logo-fontsize-design{
+    font-size:1.2rem;
+}
 
 .color-box {
     text-align: center;
@@ -89,7 +104,10 @@ figcaption {
     margin-bottom: 10px;
     font-style: italic;
 }
-
+.blockquote-cssdesign{
+    margin:1rem; 
+    padding-left: 10px; 
+}
 /* code blocks */
 code {
     display: block;
