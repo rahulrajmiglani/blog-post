@@ -130,6 +130,17 @@ section.blog-img{
 .rd-more a {
     display: block;
     text-align-last: right;
+    text-decoration: none;
+    color: white;
+    font-weight: normal;
+}
+button.rd-more {
+    padding: 4px;
+    background-color: #0223d3;
+    display: block;
+    border-radius: 5px;
+    float: right;
+    cursor: pointer;
 }
 
 /*  social icons  */
